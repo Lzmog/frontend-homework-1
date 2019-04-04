@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>forntend-1-homework</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% block stylesheets %}
+        <link href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+        <link rel="stylesheet" href="{{ asset('assets/css/notifications.css') }}" />
+    {% endblock %}
+  <body>
+
+    <!-- Page content -->
+    <div>
+
+    <div class="notice notice-border notice-type--error">
+      <b>
+        Incorrect email address.
+      </b>
+      <p>
+        The email you entered does not belong to any InterNations account. Please try again.
+      </p>
+      <p>
+        If you forgot the email address with which you registered, please <a href="google.com">request support</a>
+      </p>
+    </div>
+
+    <div class="notice notice-border notice-type--success">
+        <b>
+          Thank you!
+        </b>
+        <p>
+          You have successfully sent the invitation at <a href="google.lt"> my@email.com</a>.
+        </p>
+        <p>
+          All you have to do now is accept the invitation and start connecting with members of your community..
+        </p>
+      </div>
+
+      <div class="container">
+        <a href="#" class="button button--animate button-color--default">
+          CONTINUE TO NEXT PAGE
+        </a>
+      </div>
+
+
+    <!-- End Page Content -->
+    </div>
+  </body>
+</html>

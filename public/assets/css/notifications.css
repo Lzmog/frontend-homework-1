@@ -1,0 +1,58 @@
+body {
+  font-family: system-ui;
+  color: #34495e;
+  line-height: 1.6em;
+}
+
+p {
+  margin: 0;
+}
+
+.notice {
+  position: relative;
+  margin: 1em;
+  background: #F9F9F9;
+  padding: 1em 1em 1em 2em;
+}
+
+.notice-border {
+  border-right: 3em solid #DDD ;
+  border-radius: 5px;
+  border-style: solid;
+  border-top-width: 2px;
+  border-left-width: 2px;
+  border-bottom-width: 2px;
+}
+
+.notice-type--success {
+  border-color: #29913F;
+}
+
+.notice-type--error {
+  border-color: #F25127;
+}
+
+.button
+{
+	position: relative;
+	padding: 10px 40px;
+  margin: 0px 10px 10px 0px;
+  float: right;
+	border-radius: 10px;
+	font-family: system-ui;
+	color: #ccc;
+  text-decoration: none;
+}
+
+.button--animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.button-color--default
+{
+	background-color: #327CA9;
+	border-bottom: 2px solid #2980B9;
+	text-shadow: 0px -2px #2980B9;
+}
